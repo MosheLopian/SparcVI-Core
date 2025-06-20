@@ -1,0 +1,6 @@
+Fault Name,Severity Class,Description
+Voltage Sag,2,Drop in voltage amplitude
+Phase Imbalance,3,Unequal voltage magnitude or angle across phases
+Capacitor Bank Degradation,1,Capacitor aging causing harmonic or reactive power issues
+Transformer Saturation,2,Core nonlinearity causing waveform distortion
+Loose Neutral,3,Floating reference leading to voltage instability

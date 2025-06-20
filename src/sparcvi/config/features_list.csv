@@ -1,0 +1,11 @@
+Feature Name,Group,Description
+Voltage RMS,Time Domain,Effective voltage value
+Current RMS,Time Domain,Effective current value
+Voltage Peak,Time Domain,Maximum voltage observed
+Current Peak,Time Domain,Maximum current observed
+Voltage Crest Factor,Time Domain,Ratio of peak to RMS for voltage
+Current Crest Factor,Time Domain,Ratio of peak to RMS for current
+Voltage THD,Frequency Domain,Total harmonic distortion in voltage
+Current THD,Frequency Domain,Total harmonic distortion in current
+3rd Harmonic (V),Frequency Domain,Magnitude of 3rd voltage harmonic
+5th Harmonic (I),Frequency Domain,Magnitude of 5th current harmonic
