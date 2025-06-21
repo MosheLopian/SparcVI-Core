@@ -1,0 +1,102 @@
+Feature,Value
+Voltage RMS,0.7071067811865475
+Current RMS,0.7063996744053609
+Voltage Peak,1.0
+Current Peak,0.999
+Voltage Std Dev,0.7071067811865475
+Current Std Dev,0.7063996744053609
+Voltage Skewness,-5.015363786245347e-16
+Current Skewness,-5.018961389070725e-16
+Voltage Kurtosis,-1.5000000000000024
+Current Kurtosis,-1.5000000000000016
+Voltage Crest Factor,1.4142135623730951
+Current Crest Factor,1.4142135623730951
+Voltage Entropy,2.44121452915426
+Current Entropy,2.4412145291542124
+Entropy Delta,4.75175454539567e-14
+Voltage Zero-Crossings,17999.0
+Current Zero-Crossings,17999.0
+Zero-Crossing Irregularity,0.0007310867767445148
+Cycle Stability,0.0007513882716802485
+Rise Time (V),175.7802734375
+Rise Time (I),175.7802734375
+Load Skew (I),7.167486917385927e-17
+Signal-to-Noise Ratio,0.0
+Voltage Flicker Index,0.013694175870964966
+Current Flicker Index,0.013680481695094
+Voltage Sag Duration,123.046875
+Voltage Swell Duration,0.0
+Current Sag Duration,123.046875
+Current Swell Duration,0.0
+Waveform Asymmetry Index,6.402213747484367e-17
+Flat-Top Distortion Index,0.3
+Transient Spike Count,0.0
+RMS Stability,0.0037147406661165784
+Peak dV/dt,316.4334022441651
+Peak dI/dt,316.1169688419209
+Waveform Smoothness,0.004790977344158861
+Time Symmetry Index,1.9999999999968119
+Voltage Crest-to-Entropy Ratio,-0.08293958122901625
+Current Crest-to-Entropy Ratio,-0.08261553805476868
+Voltage Skew-to-Kurtosis Ratio,3.3435780865489495e-16
+Current Skew-to-Kurtosis Ratio,3.345976490031473e-16
+Entropy Delta / Entropy Mean,1.946470718643152e-14
+Zero-Crossing Irregularity / RMS,1.058725245718772
+Rise Time Ratio (V/I),0.9996587831353564
+RMS Stability Index,0.017008370611359677
+Peak dI/dt / RMS (I),447.50377554215123
+Current-to-Voltage RMS Ratio,0.9989985872026491
+Voltage Flicker-to-RMS Ratio,1.5838396547983036
+DC Offset (V),5.0808739931401055e-17
+DC Offset (I),5.0631104247461025e-17
+Phase Voltage Unbalance,0.06713282733542894
+Phase Current Unbalance,0.07943624305077612
+Positive Sequence Voltage Ratio,0.8090792818965905
+Negative Sequence Voltage Ratio,0.1909207181034095
+Zero Sequence Voltage Ratio,4.797844627797051e-16
+Positive Sequence Current Ratio,0.8009521776894659
+Negative Sequence Current Ratio,0.19904782231053408
+Phase Angle Shift (V),1.5707963267948966
+Phase Angle Shift (I),1.5707963267948966
+Phase RMS Deviation (V),0.0453187909336541
+Phase RMS Deviation (I),0.05072711020403406
+Inter-Phase Voltage Difference,1.046323588328648
+Inter-Phase THD Skew,621194622957094.6
+Voltage Unbalance Ratio,0.06713282733542894
+Current Unbalance Ratio,0.07943624305077612
+Voltage Angle Symmetry Index,1.5707963267948966
+Current Angle Symmetry Index,1.5707963267948966
+Phase Entropy (V),3.291050003102571
+Phase Entropy (I),3.3568815968203882
+Sequence Component Distortion Index,35506.88564413199
+Phase Dominance Index (V),0.3491566924828869
+Phase Dominance Index (I),0.36872943613656056
+Sequence Angle Drift,0.0
+Reactive Power Imbalance,0.0
+Phase Voltage Angle Spread,3.141592653589793
+Phase Current Angle Spread,3.141592653589793
+Voltage Cross-Phase Correlation,-0.4884259136454137
+Current Cross-Phase Correlation,-0.48365971128611135
+Cross-Phase THD Differential,1360581340804537.2
+Unbalanced Power Factor Spread,0.006152284043944178
+Real Power (3-phase),1.2914678427502182
+Reactive Power (3-phase),0.0
+Apparent Power,1.298469455911237
+Displacement Power Factor,1.0
+True Power Factor,0.9946077952552952
+Energy Drift per Phase,0.0003200120439131134
+Harmonic 3rd (V),0.6310269849391232
+Harmonic 3rd (I),0.8471996054244788
+Harmonic 5th (V),0.6221915954199481
+Harmonic 5th (I),0.8377986672754177
+Harmonic 7th (V),0.6196524926793004
+Harmonic 7th (I),0.835327337944778
+Interharmonic Energy (V),7415742729.9332075
+Interharmonic Energy (I),6647980003.4023695
+Harmonic Spectral Flatness,0.0530357289000933
+Cumulative Harmonic Power,20921779047.8925
+Fundamental Frequency,51.20000000000001
+Frequency Deviation,1.20000000000001
+Frequency Stability Index,0.0
+Zero-Crossing Frequency Estimate,51.20028446815028
+Oscillatory Component Index,0.9999999963180451

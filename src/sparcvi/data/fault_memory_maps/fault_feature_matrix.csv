@@ -1,0 +1,11 @@
+,Voltage Sag,Capacitor Bank Degradation,Transformer Saturation,Loose Neutral,Overcurrent,Voltage Flicker
+Voltage RMS,0,0,0,0,0,0
+Current RMS,0,0,0,0,0,0
+Voltage Peak,0,0,0,0,0,0
+Current Peak,0,0,0,0,0,0
+Voltage Crest Factor,0,0,0,0,0,0
+Current Crest Factor,0,0,0,0,0,0
+Voltage THD,0,0,0,0,0,0
+Current THD,0,0,0,0,0,0
+3rd Harmonic (V),0,0,0,0,0,0
+5th Harmonic (I),0,0,0,0,0,0

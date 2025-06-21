@@ -1,11 +1,102 @@
-Feature Name,Group,Description
-Voltage RMS,Time Domain,Effective voltage value
-Current RMS,Time Domain,Effective current value
-Voltage Peak,Time Domain,Maximum voltage observed
-Current Peak,Time Domain,Maximum current observed
-Voltage Crest Factor,Time Domain,Ratio of peak to RMS for voltage
-Current Crest Factor,Time Domain,Ratio of peak to RMS for current
-Voltage THD,Frequency Domain,Total harmonic distortion in voltage
-Current THD,Frequency Domain,Total harmonic distortion in current
-3rd Harmonic (V),Frequency Domain,Magnitude of 3rd voltage harmonic
-5th Harmonic (I),Frequency Domain,Magnitude of 5th current harmonic
+Feature Name,Category,Description
+Voltage RMS,time,Root Mean Square of voltage waveform
+Current RMS,time,Root Mean Square of current waveform
+Voltage Peak,time,Maximum voltage amplitude
+Current Peak,time,Maximum current amplitude
+Voltage Std Dev,time,Standard deviation of voltage
+Current Std Dev,time,Standard deviation of current
+Voltage Skewness,time,Skewness of voltage waveform
+Current Skewness,time,Skewness of current waveform
+Voltage Kurtosis,time,Kurtosis of voltage waveform
+Current Kurtosis,time,Kurtosis of current waveform
+Voltage Crest Factor,time,Voltage crest-to-RMS ratio
+Current Crest Factor,time,Current crest-to-RMS ratio
+Voltage Entropy,time,Spectral entropy of voltage
+Current Entropy,time,Spectral entropy of current
+Entropy Delta,time,Entropy difference between voltage and current
+Voltage Zero-Crossings,time,Number of zero-crossings in voltage
+Current Zero-Crossings,time,Number of zero-crossings in current
+Zero-Crossing Irregularity,time,Deviation in zero-crossing intervals
+Cycle Stability,time,Stability of waveform over cycles
+Rise Time (V),time,Voltage rise time
+Rise Time (I),time,Current rise time
+Load Skew (I),time,Asymmetry in current waveform
+Signal-to-Noise Ratio,time,SNR of voltage waveform
+Voltage Flicker Index,time,Voltage flicker severity
+Current Flicker Index,time,Current flicker severity
+Voltage Sag Duration,time,Duration of voltage sags
+Voltage Swell Duration,time,Duration of voltage swells
+Current Sag Duration,time,Duration of current sags
+Current Swell Duration,time,Duration of current swells
+Waveform Asymmetry Index,time,Degree of waveform asymmetry
+Flat-Top Distortion Index,time,Clipping distortion indicator
+Transient Spike Count,time,Number of sharp spikes
+RMS Stability,time,RMS deviation across time
+Peak dV/dt,time,Max voltage slope
+Peak dI/dt,time,Max current slope
+Waveform Smoothness,time,Smoothness score of waveform
+Time Symmetry Index,time,Symmetry in waveform shape
+Voltage Crest-to-Entropy Ratio,time,Ratio of crest factor to entropy
+Current Crest-to-Entropy Ratio,time,Ratio of crest factor to entropy
+Voltage Skew-to-Kurtosis Ratio,time,Skewness-to-kurtosis for voltage
+Current Skew-to-Kurtosis Ratio,time,Skewness-to-kurtosis for current
+Entropy Delta / Entropy Mean,time,Ratio of entropy difference to mean
+Zero-Crossing Irregularity / RMS,time,Irregularity scaled by RMS
+Rise Time Ratio (V/I),time,Ratio of voltage and current rise time
+RMS Stability Index,time,Normalized RMS drift
+Peak dI/dt / RMS (I),time,Current slew normalized by RMS
+Current-to-Voltage RMS Ratio,time,RMS current vs voltage
+Voltage Flicker-to-RMS Ratio,time,Flicker scaled by RMS
+DC Offset (V),time,DC component in voltage
+DC Offset (I),time,DC component in current
+Phase Voltage Unbalance,phase,Magnitude asymmetry between phase voltages
+Phase Current Unbalance,phase,Magnitude asymmetry between phase currents
+Positive Sequence Voltage Ratio,phase,Positive sequence voltage magnitude
+Negative Sequence Voltage Ratio,phase,Negative sequence voltage magnitude
+Zero Sequence Voltage Ratio,phase,Zero sequence voltage magnitude
+Positive Sequence Current Ratio,phase,Positive sequence current magnitude
+Negative Sequence Current Ratio,phase,Negative sequence current magnitude
+Phase Angle Shift (V),phase,Phase shift in voltage
+Phase Angle Shift (I),phase,Phase shift in current
+Phase RMS Deviation (V),phase,RMS variance between phases
+Phase RMS Deviation (I),phase,RMS variance between currents
+Inter-Phase Voltage Difference,phase,Max voltage delta between phases
+Inter-Phase THD Skew,phase,THD difference across phases
+Voltage Unbalance Ratio,phase,Unbalance percentage in voltage
+Current Unbalance Ratio,phase,Unbalance percentage in current
+Voltage Angle Symmetry Index,phase,Symmetry in voltage phase angles
+Current Angle Symmetry Index,phase,Symmetry in current phase angles
+Phase Entropy (V),phase,Entropy of voltage angle distribution
+Phase Entropy (I),phase,Entropy of current angle distribution
+Sequence Component Distortion Index,phase,Distortion in sequence components
+Phase Dominance Index (V),phase,Dominant phase in voltage
+Phase Dominance Index (I),phase,Dominant phase in current
+Sequence Angle Drift,phase,Drift in sequence component angles
+Reactive Power Imbalance,phase,Reactive power asymmetry
+Phase Voltage Angle Spread,phase,Range of voltage angles across phases
+Phase Current Angle Spread,phase,Range of current angles across phases
+Voltage Cross-Phase Correlation,phase,Correlation across voltage phases
+Current Cross-Phase Correlation,phase,Correlation across current phases
+Cross-Phase THD Differential,phase,Max THD variation across phases
+Unbalanced Power Factor Spread,phase,Spread in phase PF values
+Real Power (3-phase),power,Total real power
+Reactive Power (3-phase),power,Total reactive power
+Apparent Power,power,Total apparent power
+Displacement Power Factor,power,Phase shift PF
+True Power Factor,power,Real to apparent ratio
+Energy Drift per Phase,power,Trend in energy flow
+Harmonic 3rd (V),harmonic,3rd harmonic in voltage
+Harmonic 3rd (I),harmonic,3rd harmonic in current
+Harmonic 5th (V),harmonic,5th harmonic in voltage
+Harmonic 5th (I),harmonic,5th harmonic in current
+Harmonic 7th (V),harmonic,7th harmonic in voltage
+Harmonic 7th (I),harmonic,7th harmonic in current
+Interharmonic Energy (V),harmonic,Voltage interharmonic energy
+Interharmonic Energy (I),harmonic,Current interharmonic energy
+Harmonic Spectral Flatness,harmonic,Spectral uniformity
+Cumulative Harmonic Power,harmonic,Summed harmonic power
+Fundamental Frequency,frequency,Extracted base frequency
+Frequency Deviation,frequency,Offset from nominal (50Hz)
+Frequency Stability Index,frequency,Stability over time
+Zero-Crossing Frequency Estimate,frequency,Freq from zero-crossings
+Oscillatory Component Index,frequency,Level of spectral ringing

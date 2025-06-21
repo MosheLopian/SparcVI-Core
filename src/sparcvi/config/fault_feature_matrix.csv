@@ -1,0 +1,9 @@
+Feature Name,Voltage Sag,Overcurrent,Transformer Saturation,Capacitor Bank Degradation,Voltage Flicker
+Voltage RMS,-3,0,-1,0,-1
+Current RMS,1,3,0,1,0
+Voltage Crest Factor,1,2,-2,2,1
+Current Crest Factor,0,2,0,0,0
+Voltage THD,1,1,2,3,2
+Current THD,1,1,1,2,1
+Power Factor,0,-1,-2,-2,0
+Voltage Flicker Index,-1,0,0,0,3
